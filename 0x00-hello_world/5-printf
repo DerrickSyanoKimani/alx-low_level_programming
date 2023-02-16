@@ -1,0 +1,12 @@
+#include<stdio.h>
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+	char anything[56] = "with proper grammar, but the outcome us a outcome is a piece of art,";
+	printf(anything);
+	return (0);
+}
