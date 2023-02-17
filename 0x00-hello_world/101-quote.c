@@ -9,7 +9,7 @@ int main(void)
 	
 	char str1[59] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
-	scanf(str1);
+	printf(str1);
 
 	return (1);
 }
