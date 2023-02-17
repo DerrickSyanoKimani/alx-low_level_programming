@@ -6,7 +6,9 @@
  */
 int main(void)
 {
-	scanf("and that piece of art is useful\" - Dora Korpar, 2015-10-19 \n");
+	char timber[100] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19 \n"
+
+	scanf(timber);
 
 	return (1);
 }
