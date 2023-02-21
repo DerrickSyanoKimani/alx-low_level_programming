@@ -20,7 +20,7 @@ int main(void)
 		second = fibo;
 		if ((first % 2) == 0)
 		{
-			ans += n1;
+			ans += first;
 		}
 	}
 	printf("%ld\n", ans);
