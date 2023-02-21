@@ -1,11 +1,11 @@
-#include <unistd.h>
+#include <main.h>
 
 /**
  * main - Entry point
  *
  * Return: Always 0 (Success)
  */
-int main()
+int main(void)
 {
 	int disp[] = {_,p,u,t,c,h,a,r};
 	
