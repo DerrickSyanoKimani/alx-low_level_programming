@@ -1,20 +1,20 @@
 #include "main.h"
-
 /**
- * main - Prints as a message.
+ * main - prints _putchar
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 in success
  */
 int main(void)
 {
-	char str[] = {"_","p","u","t","c","h","a","r"};
-	int count, sz;
-
-	sz = sizeof(str) / sizeof(int);
-	for (count = 0; count < sz; count++)
-	{
-		_putchar(str[count]);
-	}
+	_putchar(95); /*95 is ASCII value for _*/
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
+
 	return (0);
 }
