@@ -16,7 +16,7 @@ int main(void)
 	for (i = 0; i < 48; i++)
 	{
 		fibo = first + second;
-		printf(", %ld", fn);
+		printf(", %ld", fibo);
 		first = second;
 		second = fibo;
 	}
