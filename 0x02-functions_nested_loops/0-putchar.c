@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int disp[] = {_,p,u,t,c,h,a,r};
+	char disp[] = {"_","p","u","t","c","h","a","r"};
 	
 	int i;
 
