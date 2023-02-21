@@ -1,20 +1,21 @@
-#include <stdio.h>
 #include <unistd.h>
 
-#int _putchar(char x);
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main()
 {
-	char c = _putchar;	
-}
+	int disp[] = {_,p,u,t,c,h,a,r};
+	
+	int i;
 
-/**
- * _putchar - writes the character c to stdout
- * @c: The character to print
- *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
- */
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
+	for (i=0; i<8; i++)
+	{
+		_putchar(disp[i]);
+	}	
+	_putchar("\n");
+
+	return 0;
 }
