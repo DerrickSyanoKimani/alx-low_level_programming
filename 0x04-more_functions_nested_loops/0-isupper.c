@@ -5,7 +5,7 @@
  *
  * Return Always 0.
 */ 
-int main<void>
+int _isupper(int c)
 {
 	if (_isupper(c))
 	{	
@@ -15,5 +15,6 @@ int main<void>
 	else
 	{
 		return(0);
+
 	}
 }
