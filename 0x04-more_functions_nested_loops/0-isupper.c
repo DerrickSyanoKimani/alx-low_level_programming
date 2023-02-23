@@ -1,3 +1,4 @@
+#include "main.h"
 /*
  * Function for letter case - check the code.
  *
