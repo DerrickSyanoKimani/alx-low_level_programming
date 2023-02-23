@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
  * Function for letter case - check the code.
  *
  * Return  1/0.
