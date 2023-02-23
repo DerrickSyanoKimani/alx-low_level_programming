@@ -1,9 +1,7 @@
-#include "main.h"
-
 /*
- * main - check the code.
+ * Function for letter case - check the code.
  *
- * Return Always 0.
+ * Return  1/0.
 */ 
 int _isupper(int c)
 {
@@ -11,7 +9,6 @@ int _isupper(int c)
 	{	
 		return(1);
 	}	
-
 	else
 	{
 		return(0);
