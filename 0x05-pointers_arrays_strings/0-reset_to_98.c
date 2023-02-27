@@ -5,10 +5,10 @@
  *
  * Return: Always 0.
  */
-int pointer(int *p)
+void reset_to_98(int &n)
 {
-	int n = 98;
-	p = &n;
+	int n = 98;;
+	int *p = &n;
 
-	return (n);
+	return (0);
 }
