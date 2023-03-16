@@ -79,7 +79,7 @@ int _checknum(char *argv[], int n)
  * @argc: number of arguments.
  * @argv: arguments vector.
  *
- * Return: 0 - success.
+ * Return: success 0.
  */
 int main(int argc, char *argv[])
 {
