@@ -33,5 +33,5 @@ unsigned int binary_to_uint(const char *b)
 		}
 	}
 
-	reurn (ui);
+	return (ui);
 }
